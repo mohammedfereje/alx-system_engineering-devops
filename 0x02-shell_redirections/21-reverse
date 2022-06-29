@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "enter word:" word
+echo $word |rev
