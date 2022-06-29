@@ -1,0 +1,3 @@
+#!/bin/bash
+export NUM=0
+echo "$NUM" | awk '{printf "%.2f\n",$1}'
